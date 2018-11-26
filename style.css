@@ -8,19 +8,21 @@ i {
 
 #name {
 	font-family: 'Amatic SC', cursive;
-	font-size: 60px;
+    font-size: 60px;
 }
 
 a {
 	text-decoration: none;
 }
 
-#iconlist {
+.freelist {
 	list-style-type: none;
 }
 
 .container {
     position: relative;
+    text-align: center;
+    font-family: 'PT Sans';
     width: 100%;
     margin: 0 auto;
     -webkit-transition: all 1s ease;
@@ -32,3 +34,8 @@ a {
 .panel {
 	display: block;
 }
+
+.work {
+    display: block;
+}
+

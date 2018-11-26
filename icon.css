@@ -37,9 +37,7 @@
 .social i:hover {
     margin-top: -1px;
 }
-.social i#twitter:hover {
-    color: #77DDF6;
-}
+
 .social i#github:hover {
     color: black;
 }
@@ -55,6 +53,11 @@
 .social i#mail:hover {
     color: #F7B401;
 }
+
+.social i#instagram:hover {
+    color: #cd486b;
+}
+
 .social i#facebook:hover {
     color: #3b5998;
 }
