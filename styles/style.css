@@ -1,0 +1,87 @@
+body {
+
+    background-color: lightskyblue;
+}
+
+.hide {
+    display: none;
+}
+
+i {
+	height: auto; 
+    width: auto; 
+    max-width: 50px; 
+    max-height: 50px;
+}
+
+#name {
+	font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.freelist {
+	list-style-type: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-family: 'PT Sans';
+    width: 100%;
+    margin: 0 auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    
+}
+
+.panel {
+	display: block;
+}
+
+.work {
+    display: block;
+}
+
+img.propic {
+    transition: background-color 1s ease-in-out;
+}
+
+img.propic.greyed-out {
+    background-color: lightsteelblue;
+    opacity: .5;
+}
+
+.animation {
+    border: solid 2px blueviolet;
+    width: 20%;
+    display: block;
+    position: absolute;
+    top: 1%;
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+cloud-bg { bottom: 17%; width: 80%; right: 100%;}
+.cloud-bg2 { bottom: 17%; width: 80%; right: 100%; }
+
+.cloud-shadow1 { bottom: 43%; right: 100%; width: 80%; transform: rotate(5deg); }
+.cloud1 { bottom: 30%; right: 100%; width: 80%; }
+.cloud-shadow2 { bottom: 12%; left: 36%; width: 80%; transform: rotate(5deg); }
+.cloud-shadow3 { bottom: 31%; left: -30%; width: 80%; transform: rotate(5deg); }
+.cloud2 { bottom: 46%; left: -29%; width: 80%; }
+.cloud3 { bottom: 38%; left: 17%; width: 80%; }
+.cloud4 { bottom: 18%; left: -18%; width: 80%; }
+.cloud5 { bottom: 8%; left: 40%; width: 80%; }
