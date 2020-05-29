@@ -81,7 +81,7 @@ function clouds() {
     });
 
     TweenMax.to($('.sun'), 50, {
-        x: 100, y: 300, ease: Linear.easeInOut, delay: 0, force3D: true
+        x: 100, y: 400, ease: Linear.easeInOut, delay: 0, force3D: true
     });
 
 

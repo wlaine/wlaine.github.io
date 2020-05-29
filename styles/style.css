@@ -13,13 +13,13 @@ body {
 i {
 	height: auto; 
     width: auto; 
-    max-width: 50px; 
+    max-width: 60px; 
     max-height: 50px;
 }
 
 #name {
 	font-family: 'Rakkas';
-    font-size: 50px;
+    font-size: 55px;
     color: #533E2D;
 }
 
@@ -50,7 +50,7 @@ a {
     text-align: center;
     font-family: 'Rakkas';
     color: #533E2D;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     width: 100%;
     margin: 0 auto;
     -webkit-transition: all 1s ease;
