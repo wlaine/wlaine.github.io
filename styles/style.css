@@ -1,6 +1,9 @@
 body {
 
     background-color: lightskyblue;
+
+    background-image: linear-gradient(to top,#FC3A52 1%, #6CD4FF );
+    background-size: cover;
 }
 
 .hide {
@@ -15,12 +18,14 @@ i {
 }
 
 #name {
-	font-family: 'Amatic SC', cursive;
-    font-size: 60px;
+	font-family: 'Rakkas';
+    font-size: 50px;
+    color: #533E2D;
 }
 
 a {
     text-decoration: none;
+    z-index: 9999;
 }
 
 .freelist {
@@ -30,6 +35,7 @@ a {
 .content-container {
     position: absolute;
     bottom: 6%;
+    z-index: 9999;
 }
 
 .social {
@@ -42,7 +48,9 @@ a {
     justify-content: center;
     position: relative;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Rakkas';
+    color: #533E2D;
+    font-size: 1.1rem;
     width: 100%;
     margin: 0 auto;
     -webkit-transition: all 1s ease;
@@ -94,3 +102,15 @@ cloud-bg { bottom: 17%; width: 80%; right: 100%;}
 .cloud3 { bottom: 38%; left: 17%; width: 80%; }
 .cloud4 { bottom: 18%; left: -18%; width: 80%; }
 .cloud5 { bottom: 8%; left: 40%; width: 80%; }
+
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image: linear-gradient(45deg, rgb(199, 3, 3) 1%, white);
+    opacity: .1;
+    z-index:9990;
+    color:white;
+}

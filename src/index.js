@@ -80,25 +80,17 @@ function clouds() {
         }
     });
 
-
-    // let drops = document.querySelectorAll('.raindrop');
-    // for (let i = 0; i < drops.length; i++) {
-    //     initDrop(`.rain-${i}`, 6, 300, 450, 8);
-    // }
-
-    // function initDrop(selector, delaySeconds, x, y, speed) {
-    //     setTimeout(() => {
-    //         var tl = new TimelineMax({ repeat: -1, delay: 0 });
-
-    //         tl.to(selector, speed, {
-    //             y: y, x: x, delay: 0, ease: Power1.easeInOut, force3D: true
-    //         });
+    TweenMax.to($('.sun'), 50, {
+        x: 100, y: 300, ease: Linear.easeInOut, delay: 0, force3D: true
+    });
 
 
-    //         $(selector).removeClass('hide');
-    //     }, (delaySeconds + Math.round(Math.random() * 10)) * 1000);
+    TweenMax.to($('.overlay'), 25, {
+        opacity: .5, ease: Linear.easeInOut, delay: 0, force3D: true
+    });
 
-    // }
-
+    TweenMax.to($('.overlay'), 40, {
+        opacity: 0, ease: Linear.easeInOut, delay: 25, force3D: true
+    });
 
 }
